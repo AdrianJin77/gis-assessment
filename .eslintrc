@@ -1,0 +1,20 @@
+{
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "prettier/prettier": [
+        "error",
+          {
+            "trailingComma": "es5",
+            "semi": false,
+            "singleQuote": false,
+            "printWidth": 120
+          }
+        ]
+      },
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true
+      },
+      "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended"]
+}
